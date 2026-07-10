@@ -1,8 +1,8 @@
-from ast import Or
+
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-import matplotlib.pyplot as plt
+
 import seaborn as sns
 from streamlit_option_menu import option_menu
 st.set_page_config(page_title="Indian Schools performance analysis ",page_icon="📱",layout="wide")
