@@ -2,4 +2,4 @@ pandas
 option_menu
 seaborn
 streamlit 
-plotly
+plotly.express
