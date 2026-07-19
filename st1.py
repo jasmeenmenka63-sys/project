@@ -15,7 +15,7 @@ h1,h2,h3{
 
 st.markdown("""<style>.stApp{background-color:#F8FAFC;}div[data-testid="stMetric"]{background:white;padding:20px;border-radius:15px;border-left:6px solid #2563EB;box-shadow:0px 4px 12px rgba(0,0,0,0.15);text-align:center;}div[data-testid="stMetricLabel"]{font-size:18px;font-weight:bold;color:#1F2937;}div[data-testid="stMetricValue"]{font-size:32px;font-weight:bold;color:#2563EB;}.stPlotlyChart{background:white;padding:15px;border-radius:15px;box-shadow:0px 4px 12px rgba(0,0,0,0.12);}.stAlert{border-radius:15px;}h1,h2,h3{color:#0F172A;font-weight:bold;}</style>""",unsafe_allow_html=True)
 st.markdown("""<style>.box{background:#EAF4FF;border-left:6px solid #2563EB;padding:12px 15px;border-radius:10px;margin-bottom:8px;font-size:16px;font-weight:500;color:#1F2937;}</style>""",unsafe_allow_html=True)
-st.set_page_config(page_title="Indian Schools performance analysis ",page_icon="📱",layout="wide")
+st.set_page_config(page_title="Indian School Performance Analysis ",page_icon="📱",layout="wide")
 
 df1=pd.read_csv("dropout ratio.csv")
 df2=pd.read_csv("gross enrollment.csv")
